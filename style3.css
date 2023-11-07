@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+*{
+    background-color: black;
+}
+
+body{
+    color: red;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 35px;
+
+}
+
+#four{
+    color: yellow;
+}
+
+.grids{
+    border: 250px solid blue;
+    width: 300px;
+    position: absolute;
+    left: 350px;
+    background-color: blue;
+    border-radius: 10%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+    grid-template-rows: repeat(6, 1fr);
+    gap: 30px;
+    height: 10px;
+    justify-content: center;
+    
+}
+  
+.circle{
+    width: 50px; 
+    height: 50px; 
+    background-color: black ; 
+    border-radius: 50%; 
+    justify-content: center;
+    position: relative;
+    bottom: 210px;
+}
+  
+#redcircle{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 390px;
+    left: 350px;
+}
+
+#redcircle p{
+    position: relative;
+    left: 70px;
+    top: 5px;
+    color: red;
+
+}
+
+
+
+#yellowcircle{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    top: 480px;
+    left: 900px;
+    color: yellow;
+}
+
+#yellowcircle p{
+    position: relative;
+    left: 70px;
+    bottom: 1px;
+    color: yellow;
+
+}
+
